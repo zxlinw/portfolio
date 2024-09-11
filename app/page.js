@@ -3,6 +3,7 @@ import './globals.css';
 import HeroSection from './components/HeroSection.jsx';
 import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
+import About from './components/About.jsx';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
     <Navbar />
       <container className="container mx-auto px-12 py-4 mt-24">
         <HeroSection />
+        <About />
       </container>
       <Footer />
       
